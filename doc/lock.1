@@ -1,13 +1,13 @@
-.TH LOCK 1 2017-06-26
+.TH LOCK 1 2017-08-24
 
 .SH NAME
 .B lock
-- Bash script around i3lock for fancy effect
+- Bash script around i3lock for comedic effect
 
 .SH DESCRIPTION
 
-Takes a screenshot of the desktop, blurs the background and adds a lock icon and
-text. This blurred image is then given to \fBi3lock\fR as the lockscreen
+Takes a screenshot of the desktop, posterizes it and adds the "We'll be
+right back" text. This processed image is then given to \fBi3lock\fR as the lockscreen
 background.
 
 .SH SYNOPSIS
@@ -25,30 +25,6 @@ Display a help screen and exit.
 Attempt to minimize all windows before locking.
 
 .TP
-\fB-g, --greyscale\fP
-Set background to greyscale instead of color.
-
-.TP
-\fB-p, --pixelate\fP
-Pixelate the background instead of blur, runs faster.
-
-.TP
-\fB-f <fontname>, --font <fontname>\fP
-Set a custom font.
-
-.TP
-\fB-t <text>, --text <text>\fP
-Set a custom text prompt.
-
-.TP
-\fB-l, --listfonts\fP
-Display a list of possible fonts for use with -f/--font.
-
-.IP
-Note: this option will not lock the screen, it displays the list and exits
-immediately.
-
-.TP
 \fB-n, --nofork\fP
 Do not fork i3lock after starting.
 
@@ -63,5 +39,5 @@ allow setting custom flags like having a delay.
 
 .SH AUTHORS
 
+Sevaric
 Dolores Portalatin <hello@doloresportalatin.info>
-
